@@ -1,8 +1,8 @@
-import { SignIn } from '@clerk/nextjs'
+import { SignUp} from '@clerk/nextjs'
 
 const SignUpPage = () => {
   return (
-    <SignIn/>
+    <SignUp/>
   )
 }
 
