@@ -88,7 +88,7 @@ const Sidebar = () => {
 
           <SignedOut>
             <button  className="button bg-purple-gradient bg-cover">
-              <Link href="/sign-in" className="text-white size-full hover:bg-purple">Login</Link>
+              <Link href="/sign-in" className="text-black size-full hover:bg-purple-500 p-4 rounded-full hover:text-white bg-purple-300">Login</Link>
             </button>
           </SignedOut>
         </div>
