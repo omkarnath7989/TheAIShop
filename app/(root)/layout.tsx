@@ -1,5 +1,6 @@
 import MobileNav from "@/components/shared/MobileNav"
 import Sidebar from "@/components/shared/Sidebar"
+import TransformationForm from "@/components/shared/TransformationForm"
 
 
 const Layout = ( {children} : { children : React.ReactNode}) => {
@@ -8,6 +9,11 @@ const Layout = ( {children} : { children : React.ReactNode}) => {
         <Sidebar/>
         <MobileNav/>
 
+        <div className="root-container">
+        <div className="wrapper">
+          {children}
+        </div>
+      </div>
         
     </main>
   )
