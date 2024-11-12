@@ -16,10 +16,10 @@ const MobileNav = () => {
     <header className="header">
       <Link href="/" className="flex items-center md:py-2 gap-2">
         <Image
-          src="/svg/logo-no-background.png"
+          src="/svg/image.png"
           alt="logo"
           width={128}
-          height={28}
+          height={20}
         />
       </Link>
 

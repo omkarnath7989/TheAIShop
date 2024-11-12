@@ -12,7 +12,7 @@ const Sidebar = () => {
         <Link href="/" className="flex justify-center py-2 gap-2">
           <Image
             alt="logo"
-            src="/svg/logo-no-background.png"
+            src="/svg/image.png"
             width={180}
             height={28}
             className="object-contain"

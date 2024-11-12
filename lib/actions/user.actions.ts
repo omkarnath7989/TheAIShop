@@ -19,7 +19,7 @@ export async function createUser(user: CreateUserParams) {
   }
 }
 
-// READ
+// READ 
 export async function getUserById(userId: string) {
   try {
     await connectToDatabase();
